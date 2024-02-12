@@ -1,0 +1,353 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+ 
+ header {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+ }
+ 
+ nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+ }
+ 
+ nav ul {
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: white;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+    transition: 1s;
+ }
+ 
+ nav.blue ul {
+    background:skyblue;
+ }
+ 
+ nav ul li {
+    display: inline-block;
+    padding: 20px;
+    font-family: cursive;
+ }
+ 
+ nav ul li a {
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: cursive;
+    font-weight: bold;
+ }
+ 
+ nav ul li a:hover,
+ nav ul li a.active {
+    color: rgb(219, 17, 10);
+    font-weight: bold;
+ }
+ 
+ section {
+    padding-top: 70px;
+    /* Adjust this value based on the height of your navbar */
+ }
+ 
+ 
+ .img-logo {
+    height: 84%;
+    width: 15%;
+    position: absolute;
+    top: 13%;
+    left: 3%;
+    padding: 1%;
+ 
+ }
+ 
+ .logo1 {
+    height: 30%;
+    width: 100%;
+    margin-bottom: 9%;
+ 
+ }
+ 
+ .logo {
+    position: fixed;
+    float: left;
+ 
+ 
+ }
+ 
+ .logo a {
+    text-decoration: none;
+    display: flex;
+ 
+ }
+ 
+ .logo a div img {
+    width: 30%;
+    height: auto;
+    border-radius: 50px;
+ 
+ }
+ 
+ .slides {
+    width: 100%;
+    height: 100vh;
+
+ }
+ 
+ .slide1 {
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/BMW1.png);
+    background-size: cover;
+    background-position: center;
+    padding: 25px 15%;
+ 
+ 
+ 
+ 
+ }
+ 
+ .slide1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+ }
+ 
+ .content {
+    padding: 15%;
+    font-size: 5px;
+    color: #070604;
+    margin-left: -30%;
+ 
+ 
+ }
+ 
+ .content h5 {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+ }
+ 
+ .content h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100px;
+    color: #222;
+    margin-top: -25px;
+ }
+ 
+ .content h2 {
+    color: red;
+    font-size: 34px;
+ }
+ 
+ .content p {
+    max-width: 300px;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555;
+ }
+ 
+ .content h3 {
+    margin-top: 30px;
+    font-weight: 600;
+    font-size: 24px;
+ 
+
+ }
+ 
+ .slide2-con {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    background-image: linear-gradient(rgba(54, 118, 136, 0.5), rgba(11, 219, 191, 0.5), rgba(85, 126, 129, 0.5));
+}
+ 
+ .right {
+    height: 80%;
+    width: 40%;
+    margin-top: 7%;
+ 
+ }
+ 
+ .right {
+    height: 80%;
+    width: 40%;
+    margin-top: 7%;
+ 
+ }
+ 
+ .top {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 2%;
+
+ }
+ 
+ .bottom {
+    height: 50%;
+    width: 100%;
+ }
+ 
+ .top1 {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 2%;
+ 
+ }
+ 
+ .bottom1 {
+    height: 50%;
+    width: 100%;
+ 
+ }
+ 
+ 
+ 
+ .slide3-con {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+    background-image: linear-gradient(rgba(54, 118, 136, 0.5), rgba(11, 219, 191, 0.5), rgba(85, 126, 129, 0.5));
+
+ }
+ 
+ .right1 {
+    height: 80%;
+    width: 40%;
+    margin-top: 7%;
+ 
+ }
+ 
+ .right1 {
+    height: 80%;
+    width: 40%;
+    margin-top: 7%;
+ 
+ }
+ 
+ .top2 {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 2%;
+    justify-content: center;
+    display: flex;
+    gap: 3%;
+ }
+ 
+ .top2-img1 p {
+    width: 250px;
+ }
+ 
+ .bottom1 {
+    height: 50%;
+    width: 100%;
+ }
+ 
+ .top2 {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 2%;
+    font-size: 8px;
+ 
+ }
+ 
+ .bottom2 {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 2%;
+    justify-content: center;
+    display: flex;
+    gap: 3%;
+    font-size: 8px;
+ 
+ }
+ 
+ .bottom2-img1 p {
+    width: 250px;
+ }
+ 
+ /********** Gallery CSS Starts **********/
+ 
+ .slide4-con {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+
+ 
+ }
+ 
+ .right3 {
+    height: 80%;
+    width: 40%;
+    margin-top: 7%;
+ 
+ }
+ 
+ .right3 {
+    height: 80%;
+    width: 40%;
+    margin-top: 7%;
+ 
+ }
+ 
+ .top3 {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 2%;
+    justify-content: center;
+    display: flex;
+    gap: 3%;
+    font-size: 85%;
+ }
+ 
+ .bottom3 {
+    height: 50%;
+    width: 100%;
+ }
+ 
+ .top3 {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 2%;
+
+
+}
+ .top3 h5{
+    font-size: 100%;
+
+}
+.top3 h4{
+    font-size: 100%;
+}
+ 
+ .bottom3 {
+    height: 50%;
+    width: 100%;
+    margin-bottom: 2%;
+    justify-content: center;
+    display: flex;
+    gap: 3%;
+ 
+ }
+ 
